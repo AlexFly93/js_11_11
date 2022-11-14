@@ -37,7 +37,7 @@ switch (month) {
 
 const month = prompt("enter your month number");
 
-if (month === "1" || lang === "2" || month === "12") {
+if (month === "1" || month === "2" || month === "12") {
   console.log("winter");
 } else if (month === "3" || month === "4" || month === "5") {
   console.log("spring");
@@ -102,7 +102,7 @@ if ((time < 11 && time > 7) || time === 7) {
   console.log("404 try again");
 }
 
-const time = Number(prompt("Enter your time"));
+const time = prompt("Enter your time");
 
 switch (time) {
   case "23":
