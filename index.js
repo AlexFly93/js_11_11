@@ -64,9 +64,9 @@ const age = Number(prompt("Enter your age"));
 
 if (age < 2 || age === 0) {
   console.log("baby");
-} else if (time < 6 || time === 2) {
+} else if (age < 6 || age === 2) {
   console.log("kinder");
-} else if (age < 12 || time === 6) {
+} else if (age < 12 || age === 6) {
   console.log("child");
 } else if (age < 18 || age === 12) {
   console.log("child");
